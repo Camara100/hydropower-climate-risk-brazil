@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use these reproducibility materials, please cite the associated paper below and reference this repository."
+title: "Hydropower Climate Risk Brazil: Reproducibility Code, Data, and Results"
+type: software
+authors:
+  - family-names: "Câmara"
+    given-names: "Cláudio da Silva"
+repository-code: "https://github.com/Camara100/hydropower-climate-risk-brazil"
+abstract: "Reproducibility materials for assessing physical climate risk and financial transmission in the Santo Antônio and Belo Monte hydropower plants in Brazil, including temporal disaggregation, ARDL models, hydroclimatic stress tests, generation-revenue analysis, and Revenue-at-Risk."
+keywords:
+  - "physical climate risk"
+  - "hydropower"
+  - "Amazon Basin"
+  - "ARDL"
+  - "hydroclimatic stress"
+  - "financial vulnerability"
+  - "Revenue-at-Risk"
+  - "reproducibility"
+preferred-citation:
+  type: unpublished
+  authors:
+    - family-names: "Câmara"
+      given-names: "Cláudio da Silva"
+  title: "Physical climate risk and financial vulnerability in Amazon hydropower plants: evidence from hydroclimatic stress tests and Revenue-at-Risk"
+  doi: "10.2139/ssrn.7157984"
+  date-published: "2026-07-22"
+  year: 2026
+  url: "https://ssrn.com/abstract=7157984"
