@@ -50,3 +50,6 @@ rsconnect/
 
 # Reproduced outputs
 outputs/
+
+# RStudio project files
+*.Rproj
