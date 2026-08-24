@@ -40,6 +40,9 @@ The repository is intended to make the empirical workflow transparent and reprod
 hydropower-climate-risk-brazil/
 │
 ├── README.md
+├── CITATION.cff
+├── LICENSE
+├── DATA_NOTICE.md
 ├── .gitignore
 │
 ├── code/
@@ -149,6 +152,8 @@ The analysis-ready data are constructed from publicly accessible information fro
 
 The repository preserves the analytical variable codes used in the validated models. See [`documentation/data_dictionary.md`](documentation/data_dictionary.md) for definitions.
 
+For data provenance, attribution, and reuse information, see [`DATA_NOTICE.md`](DATA_NOTICE.md).
+
 ## Reproducibility scope
 
 The repository reproduces the empirical analyses from the supplied analysis-ready inputs.
@@ -164,6 +169,7 @@ Validated reference workbooks are included under `results/` so reproduced output
 - [`documentation/data_dictionary.md`](documentation/data_dictionary.md) — variables, transformations, sources, and derived fields.
 - [`documentation/methodology_notes.md`](documentation/methodology_notes.md) — methodological details and interpretation caveats.
 - [`documentation/reproducibility_notes.md`](documentation/reproducibility_notes.md) — execution order, software requirements, expected outputs, and reproducibility checks.
+- [`DATA_NOTICE.md`](DATA_NOTICE.md) — data provenance, attribution, and reuse conditions.
 
 ## Software
 
@@ -183,11 +189,15 @@ SSRN DOI: **10.2139/ssrn.7157984**
 
 The repository should be cited together with the associated manuscript/preprint until a final journal citation is available.
 
-## License and source-data terms
+Repository citation metadata are provided in [`CITATION.cff`](CITATION.cff).
 
-No repository-wide open-source license has yet been assigned.
+## License and data-use notice
 
-Source data remain subject to the terms and conditions of their original providers. Users should consult the relevant source institutions before redistributing or reusing source-derived data beyond the purposes allowed by those providers.
+Original source code in the `code/` directory is licensed under the MIT License.
+
+Data files, source-derived series, and third-party materials are not covered by the MIT License and remain subject to the rights, attribution requirements, and applicable terms of their original providers.
+
+See [`LICENSE`](LICENSE) for the software license and [`DATA_NOTICE.md`](DATA_NOTICE.md) for data provenance and reuse information.
 
 ## Contact
 
