@@ -1,4 +1,4 @@
-# Physical Climate Risk and Financial Vulnerability in Amazon Hydropower Plants
+# Physical climate risk and revenue exposure in Brazilian Amazon hydropower plants
 
 Reproducible code, analysis-ready data, and validated reference results for assessing physical climate risk and financial transmission in the Santo Antônio (SA) and Belo Monte (BM) hydropower plants in Brazil.
 
