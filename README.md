@@ -4,16 +4,16 @@ Reproducible code, analysis-ready data, and validated reference results for asse
 
 ## Study overview
 
-This repository supports the study **“Physical climate risk and financial vulnerability in Amazon hydropower plants: evidence from hydroclimatic stress tests and Revenue-at-Risk.”**
+This repository supports the revised research manuscript **“Physical climate risk and revenue exposure in Brazilian Amazon hydropower plants.”** An earlier preprint, listed under *Associated research* below, retains its original title for version traceability.
 
 The study asks a practical question:
 
-> **When do physical climate shocks in hydropower plants become financially material?**
+> **How are plant-level hydropower generation responses associated with hydroclimatic conditions, and to what extent is generation statistically associated with sales revenue?**
 
 The empirical framework separates two related but distinct channels:
 
 1. **Hydroclimate → generation:** physical-operational sensitivity of electricity generation to hydroclimatic conditions.
-2. **Generation → revenue:** financial transmission of generation changes to sales revenue.
+2. **Generation → revenue:** an estimated statistical relationship between generated electricity and sales revenue, evaluated separately from the hydroclimatic stress tests.
 
 The analysis combines monthly dynamic time-series models, hydroclimatic stress scenarios, temporal disaggregation of quarterly financial data, generation–revenue regressions, and a Revenue-at-Risk metric for a standardized 10% decline in generation (RaR10).
 
@@ -26,13 +26,15 @@ The physical-model sample covers **April 2016 through January 2025**. The financ
 
 ## Main empirical message
 
-The study distinguishes physical-operational sensitivity from financial vulnerability.
+The study assesses **conditional generation responses** and **revenue exposure** as separate, complementary dimensions. In particular:
 
-- SA exhibits stronger simulated physical-operational sensitivity, particularly through the temperature channel and the combined stress scenario.
-- BM exhibits stronger financial transmission through the generation-to-revenue channel.
-- Therefore, a larger simulated physical loss does not necessarily imply greater financial materiality.
+- Under the *same individual* 10% reduction in turbine flow, the modeled average generation responses are **−1.69% for SA** and **−3.39% for BM**.
+- The *plant-specific combined* hydroclimatic stress portfolios yield average modeled generation changes of **−14.55% for SA** and **−3.60% for BM**, but their shock compositions differ. They therefore **cannot establish a controlled ranking of overall physical vulnerability**.
+- In the separate financial model, SA's generation–revenue elasticity is **−0.0418** and **not statistically significant** (p = 0.5955); BM's elasticity is **0.4412** (p = 0.0049), with a modeled **RaR10 revenue loss of approximately 4.54%** for a separately imposed, standardized **10% decline in generation**.
 
-The repository is intended to make the empirical workflow transparent and reproducible; interpretation should be read together with the associated manuscript.
+The SA temperature stress is an econometric perturbation of the X-13-adjusted log-transformed temperature regressor constructed from Celsius observations; **it is not an invariant physical warming scenario or a climate projection**. The financial regression uses monthly revenue series *statistically disaggregated from quarterly statements*, not independently observed monthly financial reports. RaR10 is an indicator of modeled **revenue exposure**, not credit risk, an estimate of credit losses, or a direct financial conversion of the plant-specific hydroclimatic scenarios.
+
+These results are conditional model-based associations and sensitivities, not causal identification of commercial mechanisms. The repository enables reproduction **from the committed analysis-ready inputs and validated reference workbooks**, subject to the boundaries documented below; the scientific interpretation should be read alongside the revised manuscript.
 
 ## Repository structure
 
